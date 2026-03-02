@@ -73,24 +73,6 @@ Este projeto apresenta uma simulação de corrida de Fórmula 1, onde o desempen
                 <p>Curva: 3</p>
                 <p>Agressividade: 3</p>
             </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Oscar Piastri</p>
-                <img src="./docs/OscarPiastri2025.jpg" alt="Oscar Piastri - F1 Driver" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 4</p>
-                <p>Curva: 3</p>
-                <p>Agressividade: 4</p>
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Oliver Bearman</p>
-                <img src="./docs/OliverBearman2025.jpg" alt="Oliver Bearman - F1 Driver" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 3</p>
-                <p>Curva: 3</p>
-                <p>Agressividade: 3</p>
-            </td>
         </tr>
     </table>
 

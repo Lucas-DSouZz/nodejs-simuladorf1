@@ -8,8 +8,6 @@ const characters = [
   { nome: "Lando Norris", velocidade: 4, curva: 4, agressividade: 4 },
   { nome: "Fernando Alonso", velocidade: 4, curva: 4, agressividade: 5 },
   { nome: "Carlos Sainz", velocidade: 4, curva: 3, agressividade: 3 },
-  { nome: "Oscar Piastri", velocidade: 4, curva: 4, agressividade: 4 },
-  {nome: "Oliver Bearman", velocidade: 3, curva: 3, agressividade: 3 },
 ];
 
 const rl = readline.createInterface({
