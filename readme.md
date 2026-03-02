@@ -1,77 +1,95 @@
-# Simulador de Corridas do Mario Kart com Node.js
+# Simulador de Corridas da Formula 1 com Node.js
 
-Este projeto apresenta uma simulação de corrida onde o desempenho dos competidores é influenciado tanto por suas habilidades individuais quanto pelas condições variáveis da pista. A aplicação foi desenvolvida com Node.js, aplicando conceitos de lógica, aleatoriedade e estruturação de regras de negócio.
+Este projeto apresenta uma simulação de corrida de Fórmula 1, onde o desempenho dos competidores é influenciado tanto por suas habilidades individuais quanto pelas condições variáveis da pista. A aplicação foi desenvolvida com Node.js, aplicando conceitos de lógica, aleatoriedade e estruturação de regras de negócio.
 
 <table>
         <tr>
             <td>
-                <img src="./docs/header.gif" alt="Mario Kart" width="200">
+                <img src="./docs/F1Logo.jpg" alt="F1Logo" width="700">
             </td>
             <td>
                 <b>Objetivo:</b>
-                <p>Mario Kart é uma série de jogos de corrida desenvolvida e publicada pela Nintendo. Nosso desafio será criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart, levando em consideração as regras e mecânicas abaixo.</p>
+                <p>Este projeto consiste na criação de um simulador de corrida inspirado na Fórmula 1. O desafio é desenvolver a lógica de um jogo de corrida em Node.js, onde pilotos da temporada atual disputam voltas utilizando atributos como Velocidade, Curva e Agressividade.</p>
             </td>
         </tr>
     </table>
 
-<h2>Players</h2>
+<h2>Pilotos</h2>
       <table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
         <tr>
             <td style="border: 1px solid black; text-align: center;">
-                <p>Mario</p>
-                <img src="./docs/mario.gif" alt="Mario Kart" width="60" height="60">
+                <p>Lewis Hamilton</p>
+                <img src="./docs/LewisHamilton2025.jpg" alt="Lewis Hamilton - F1 Driver" width="60" height="60">
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Velocidade: 4</p>
-                <p>Manobrabilidade: 3</p>
-                <p>Poder: 3</p>
+                <p>Curva: 5</p>
+                <p>Agressividade: 5</p>
             </td>
              <td style="border: 1px solid black; text-align: center;">
-                <p>Peach</p>
-                <img src="./docs/peach.gif" alt="Mario Kart" width="60" height="60">
+                <p>Max Verstappen</p>
+                <img src="./docs/MaxVerstappen2025.jpg" alt="Max Verstappen - F1 Driver" width="60" height="60">
             </td>
             <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 3</p>
-                <p>Manobrabilidade: 4</p>
-                <p>Poder: 2</p>
+                <p>Velocidade: 5</p>
+                <p>Curva: 5</p>
+                <p>Agressividade: 5</p>
             </td>
               <td style="border: 1px solid black; text-align: center;">
-                <p>Yoshi</p>
-                <img src="./docs/yoshi.gif" alt="Mario Kart" width="60" height="60">
+                <p>Charles Leclerc</p>
+                <img src="./docs/CharlesLeclerc2025.jpg" alt="Charles Leclerc - F1 Driver" width="60" height="60">
             </td>
             <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 2</p>
-                <p>Manobrabilidade: 4</p>
-                <p>Poder: 3</p>
+                <p>Velocidade: 5</p>
+                <p>Curva: 4</p>
+                <p>Agressividade: 4</p>
             </td>
         </tr>
         <tr>
             <td style="border: 1px solid black; text-align: center;">
-                <p>Bowser</p>
-                <img src="./docs/bowser.gif" alt="Mario Kart" width="60" height="60">
+                <p>Lando Norris</p>
+                <img src="./docs/LandoNorris2025.jpg" alt="Lando Norris - F1 Driver" width="60" height="60">
             </td>
             <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 5</p>
-                <p>Manobrabilidade: 2</p>
-                <p>Poder: 5</p>
+                <p>Velocidade: 4</p>
+                <p>Curva: 4</p>
+                <p>Agressividade: 4</p>
             </td>
             <td style="border: 1px solid black; text-align: center;">
-                <p>Luigi</p>
-                <img src="./docs/luigi.gif" alt="Mario Kart" width="60" height="60">
+                <p>Fernando Alonso</p>
+                <img src="./docs/FernandoAlonso2025.jpg" alt="Fernando Alonso - F1 Driver" width="60" height="60">
+            </td>
+            <td style="border: 1px solid black; text-align: center;">
+                <p>Velocidade: 4</p>
+                <p>Curva: 4</p>
+                <p>Agressividade: 5</p>
+            </td>
+            <td style="border: 1px solid black; text-align: center;">
+                <p>Carlos Sainz</p>
+                <img src="./docs/CarlosSainz2025.jpg" alt="Carlos Sainz - F1 Driver" width="60" height="60">
+            </td>
+            <td style="border: 1px solid black; text-align: center;">
+                <p>Velocidade: 4</p>
+                <p>Curva: 3</p>
+                <p>Agressividade: 3</p>
+            </td>
+            <td style="border: 1px solid black; text-align: center;">
+                <p>Oscar Piastri</p>
+                <img src="./docs/OscarPiastri2025.jpg" alt="Oscar Piastri - F1 Driver" width="60" height="60">
+            </td>
+            <td style="border: 1px solid black; text-align: center;">
+                <p>Velocidade: 4</p>
+                <p>Curva: 3</p>
+                <p>Agressividade: 4</p>
+            </td>
+            <td style="border: 1px solid black; text-align: center;">
+                <p>Oliver Bearman</p>
+                <img src="./docs/OliverBearman2025.jpg" alt="Oliver Bearman - F1 Driver" width="60" height="60">
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Velocidade: 3</p>
-                <p>Manobrabilidade: 4</p>
-                <p>Poder: 4</p>
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Donkey Kong</p>
-                <img src="./docs/dk.gif" alt="Mario Kart" width="60" height="60">
-            </td>
-            <td style="border: 1px solid black; text-align: center;">
-                <p>Velocidade: 2</p>
-                <p>Manobrabilidade: 2</p>
-                <p>Poder: 5</p>
+                <p>Curva: 3</p>
+                <p>Agressividade: 3</p>
             </td>
         </tr>
     </table>
@@ -82,17 +100,17 @@ Este projeto apresenta uma simulação de corrida onde o desempenho dos competid
 
 <b>Jogadores:</b>
 
-<label for="jogadores-item">O Computador deve receber dois personagens para disputar a corrida em um objeto cada, onde cada jogador escolhe seu próprio personagem.</label>
+<label for="jogadores-item">O Computador deve receber dois pilotos para disputar a corrida em um objeto cada, onde cada jogador escolhe seu próprio piloto.</label>
 
-<b>Pistas:</b>
+<b>Corrida:</b>
 
 <ul>
-  <li> <label for="pistas-1-item">Os personagens irão correr em uma pista aleatória de 5 rodadas</label></li>
+  <li> <label for="pistas-1-item">Os pilotos irão correr em uma corrida aleatória de 5 rodadas</label></li>
   <li> <label for="pistas-2-item">A cada rodada, será sorteado um bloco da pista que pode ser uma reta, curva ou confronto</label>
     <ul>
       <li><label for="pistas-2-1-item">Caso o bloco da pista seja uma RETA, o jogador deve jogar um dado de 6 lados e somar o atributo VELOCIDADE, quem vencer ganha um ponto</label></li>
-      <li><label for="pistas-2-2-item">Caso o bloco da pista seja uma CURVA, o jogador deve jogar um dado de 6 lados e somar o atributo MANOBRABILIDADE, quem vencer ganha um ponto</label></li>
-      <li><label for="pistas-2-3-item">Caso o bloco da pista seja um CONFRONTO, o jogador deve jogar um dado de 6 lados e somar o atributo PODER, quem perder, perde um ponto</label></li>
+      <li><label for="pistas-2-2-item">Caso o bloco da pista seja uma CURVA, o jogador deve jogar um dado de 6 lados e somar o atributo CURVA, quem vencer ganha um ponto</label></li>
+      <li><label for="pistas-2-3-item">Caso o bloco da pista seja um CONFRONTO, o jogador deve jogar um dado de 6 lados e somar o atributo AGRESSIVIDADE, quem perder, perde um ponto</label></li>
       <li><label for="pistas-2-3-item">Nenhum jogador pode ter pontuação negativa (valores abaixo de 0)</label></li>
     </ul>
   </li>
