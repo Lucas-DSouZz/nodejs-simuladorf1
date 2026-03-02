@@ -5,7 +5,7 @@ Este projeto apresenta uma simulação de corrida de Fórmula 1, onde o desempen
 <table>
         <tr>
             <td>
-                <img src="./docs/F1Logo.jpg" alt="F1Logo" width="700">
+                <img src="./docs/F1Logo.jpg" alt="F1Logo" width="900">
             </td>
             <td>
                 <b>Objetivo:</b>
