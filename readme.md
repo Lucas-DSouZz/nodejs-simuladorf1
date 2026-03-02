@@ -19,7 +19,7 @@ Este projeto apresenta uma simulação de corrida de Fórmula 1, onde o desempen
         <tr>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Lewis Hamilton</p>
-                <img src="./docs/LewisHamilton2025.jpg" alt="Lewis Hamilton - F1 Driver" width="60" height="60">
+                <img src="./docs/LewisHamilton2025.jpg" alt="Lewis Hamilton - F1 Driver" width="80" height="80">
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Velocidade: 4</p>
@@ -28,7 +28,7 @@ Este projeto apresenta uma simulação de corrida de Fórmula 1, onde o desempen
             </td>
              <td style="border: 1px solid black; text-align: center;">
                 <p>Max Verstappen</p>
-                <img src="./docs/MaxVerstappen2025.jpg" alt="Max Verstappen - F1 Driver" width="60" height="60">
+                <img src="./docs/MaxVerstappen2025.jpg" alt="Max Verstappen - F1 Driver" width="80" height="80">
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Velocidade: 5</p>
@@ -37,7 +37,7 @@ Este projeto apresenta uma simulação de corrida de Fórmula 1, onde o desempen
             </td>
               <td style="border: 1px solid black; text-align: center;">
                 <p>Charles Leclerc</p>
-                <img src="./docs/CharlesLeclerc2025.jpg" alt="Charles Leclerc - F1 Driver" width="60" height="60">
+                <img src="./docs/CharlesLeclerc2025.jpg" alt="Charles Leclerc - F1 Driver" width="80" height="80">
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Velocidade: 5</p>
@@ -48,7 +48,7 @@ Este projeto apresenta uma simulação de corrida de Fórmula 1, onde o desempen
         <tr>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Lando Norris</p>
-                <img src="./docs/LandoNorris2025.jpg" alt="Lando Norris - F1 Driver" width="60" height="60">
+                <img src="./docs/LandoNorris2025.jpg" alt="Lando Norris - F1 Driver" width="80" height="80">
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Velocidade: 4</p>
@@ -57,7 +57,7 @@ Este projeto apresenta uma simulação de corrida de Fórmula 1, onde o desempen
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Fernando Alonso</p>
-                <img src="./docs/FernandoAlonso2025.jpg" alt="Fernando Alonso - F1 Driver" width="60" height="60">
+                <img src="./docs/FernandoAlonso2025.jpg" alt="Fernando Alonso - F1 Driver" width="80" height="80">
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Velocidade: 4</p>
@@ -66,7 +66,7 @@ Este projeto apresenta uma simulação de corrida de Fórmula 1, onde o desempen
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Carlos Sainz</p>
-                <img src="./docs/CarlosSainz2025.jpg" alt="Carlos Sainz - F1 Driver" width="60" height="60">
+                <img src="./docs/CarlosSainz2025.jpg" alt="Carlos Sainz - F1 Driver" width="80" height="80">
             </td>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Velocidade: 4</p>
